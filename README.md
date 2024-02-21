@@ -31,6 +31,45 @@ These metrics indicate the model's strong ability to classify the sentiment of t
 - [**Click here for Source Codes**](https://github.com/invcble/Sentiment-Analysis-of-Indian-Political-Tweets-2023/tree/ec49ca15b794566ff53c79ab2bfa2437bc95431b/Source%20codes)
 - [**Click here for Project Report**](https://github.com/invcble/Sentiment-Analysis-of-Indian-Political-Tweets-2023/blob/ec49ca15b794566ff53c79ab2bfa2437bc95431b/Project_Report_7thSEM.pdf)
 
+## Comparative Sentiment Analysis
+
+In addition to the LSTM model's sentiment analysis, a comparative analysis was conducted with the Valence Aware Dictionary and sEntiment Reasoner (VADER), a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media.
+
+### Analysis of BJP Tweets
+
+#### LSTM Model's Analysis:
+- Positive: 48.8%
+- Neutral: 17.4%
+- Negative: 33.8%
+
+#### VADER's Analysis:
+- Positive: 49.2%
+- Neutral: 15.7%
+- Negative: 35.1%
+
+![Pie Chart of BJP Tweets (Predicted By Our Model) vs (Predicted By VADER)](image1.png)
+
+### Analysis of INC Tweets
+
+#### LSTM Model's Analysis:
+- Positive: 49.4%
+- Neutral: 17.3%
+- Negative: 33.3%
+
+#### VADER's Analysis:
+- Positive: 48.5%
+- Neutral: 16.7%
+- Negative: 34.8%
+
+![Pie Chart of INC Tweets (Predicted By Our Model) vs (Predicted By VADER)](image2.png)
+
+### Interpretation and Insights
+
+By visually comparing the two sets of pie charts for each political party (BJP and INC), we can observe the similarities and differences in sentiment distributions. This comparison helps us assess the alignment between our model's predictions and VADER's predictions for the given political teams. It provides insights into the model's performance relative to an established sentiment analysis tool like VADER. The slight variations in the sentiment distributions also offer an opportunity to explore the nuances captured by our LSTM model versus the heuristic approach employed by VADER.
+
+The close alignment in overall sentiment distribution for both the BJP and INC tweets between the LSTM model and VADER suggests that the LSTM model is quite robust and aligns well with conventional sentiment analysis methods. However, the differences in the neutral and negative categories invite further exploration into the linguistic subtleties and context that may influence the sentiment analysis results.
+
+
 ## Setup and Running the Project
 
 To replicate and run this project, follow these steps:
