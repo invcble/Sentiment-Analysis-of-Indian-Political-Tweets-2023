@@ -6,7 +6,7 @@ This project was developed as part of the Advanced Machine Learning course requi
 
 The dataset for this project was sourced from Kaggle, specifically tailored for sentiment analysis of Indian political tweets. It plays a crucial role in training and validating our LSTM model to ensure accurate sentiment classification.
 
-- **Dataset Source**: [Kaggle: Indian Political Tweets Sentiment Analysis](https://www.kaggle.com/datasets/your-dataset-link)
+- **Dataset Source**: [Kaggle: Indian Political Tweets Sentiment Analysis](https://www.kaggle.com/datasets/saurabhshahane/twitter-sentiment-dataset)
 
 ## Models and Accuracy
 
@@ -37,7 +37,8 @@ To replicate and run this project, follow these steps:
 
 1. **Collect Tweets**: Use Tweepy to collect Indian political tweets. A guide for setting up Tweepy and collecting tweets is provided in the source codes.
 2. **Prepare the Dataset**: Download the labeled dataset from Kaggle and preprocess it using the provided scripts for GloVe embeddings.
-3. **Train and Evaluate the LSTM Model**: Follow the instructions in the LSTM model implementation folder to train and evaluate the sentiment analysis model.
+3. **Download GloVe**: Download Global Vector dimension file and place it within the folder. This project used glove.6B.50d.txt
+4. **Train and Evaluate the LSTM Model**: Follow the instructions in the LSTM model implementation folder to train and evaluate the sentiment analysis model.
 
 ## Requirements
 
