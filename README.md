@@ -4,7 +4,7 @@ This project was developed as part of the Advanced Machine Learning course requi
 
 ## Dataset
 
-The dataset for this project was sourced from Kaggle, specifically tailored for sentiment analysis of Indian political tweets. It plays a crucial role in training and validating our LSTM model to ensure accurate sentiment classification.
+The dataset for this project was both scraped by Tweepy and sourced from Kaggle, specifically tailored for sentiment analysis of Indian political tweets. It plays a crucial role in training and validating our LSTM model to ensure accurate sentiment classification.
 
 - **Dataset Source**: [Kaggle: Indian Political Tweets Sentiment Analysis](https://www.kaggle.com/datasets/saurabhshahane/twitter-sentiment-dataset)
 
