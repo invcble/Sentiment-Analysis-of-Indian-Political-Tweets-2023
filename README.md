@@ -35,33 +35,18 @@ These metrics indicate the model's strong ability to classify the sentiment of t
 
 In addition to the LSTM model's sentiment analysis, a comparative analysis was conducted with the Valence Aware Dictionary and sEntiment Reasoner (VADER), a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media.
 
-### Analysis of BJP Tweets
+### Comparative Sentiment Analysis for BJP and INC Tweets
 
-#### LSTM Model's Analysis:
-- Positive: 48.8%
-- Neutral: 17.4%
-- Negative: 33.8%
+| Party | Model | Positive | Neutral | Negative |
+|-------|-------|----------|---------|----------|
+| BJP   | LSTM  | 48.8%    | 17.4%   | 33.8%    |
+| BJP   | VADER | 49.2%    | 15.7%   | 35.1%    |
+| INC   | LSTM  | 49.4%    | 17.3%   | 33.3%    |
+| INC   | VADER | 48.5%    | 16.7%   | 34.8%    |
 
-#### VADER's Analysis:
-- Positive: 49.2%
-- Neutral: 15.7%
-- Negative: 35.1%
-
-![Pie Chart of BJP Tweets (Predicted By Our Model) vs (Predicted By VADER)](image1.png)
-
-### Analysis of INC Tweets
-
-#### LSTM Model's Analysis:
-- Positive: 49.4%
-- Neutral: 17.3%
-- Negative: 33.3%
-
-#### VADER's Analysis:
-- Positive: 48.5%
-- Neutral: 16.7%
-- Negative: 34.8%
-
-![Pie Chart of INC Tweets (Predicted By Our Model) vs (Predicted By VADER)](image2.png)
+#### Visual Comparison
+- ![Pie Chart of BJP Tweets (Predicted By Our Model) vs (Predicted By VADER)](https://github.com/invcble/Sentiment-Analysis-of-Indian-Political-Tweets-2023/assets/58978137/98cca5de-0b66-4664-8dff-3fda0a91e75b)
+- ![Pie Chart of INC Tweets (Predicted By Our Model) vs (Predicted By VADER)](https://github.com/invcble/Sentiment-Analysis-of-Indian-Political-Tweets-2023/assets/58978137/434575e5-23a7-4d38-9230-70017ac70e9e)
 
 ### Interpretation and Insights
 
